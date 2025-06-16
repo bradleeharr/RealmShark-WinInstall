@@ -1,5 +1,6 @@
 Write-Host "Installing Launch4J"
 $launch4jLink = "https://downloads.sourceforge.net/project/launch4j/launch4j-3/3.50/launch4j-3.50-win32.zip"
+$launch4jZip = "launch4j.zip"
 Invoke-WebRequest -UserAgent "Wget" -Uri $launch4jLink -OutFile $launch4jZip -MaximumRedirection 3
 Expand-Archive -Path $launch4jZip -DestinationPath .
 Remove-Item $launch4jZip
