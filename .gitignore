@@ -1,0 +1,6 @@
+create_installer/*.jar
+create_installer/jdk*
+create_installer/launch4j
+.vscode/settings.json
+create_installer/realmShark.properties
+create_installer/RealmShark.exe
