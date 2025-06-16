@@ -1,5 +1,4 @@
 # RealmShark-WinInstall
 Windows Installer for RealmShark
 
-* https://github.com/bradleeharr/RealmShark-WinInstall.git
-
+* https://github.com/X-com/RealmShark
